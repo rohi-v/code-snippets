@@ -1,0 +1,5 @@
+function onLoad()
+{ 
+document.getElementsByClassName("btn btn-default icon-chevron-left navbar-btn")[0].style.display= "none";
+//Note : Make Isolate script checkbox false in your client script.
+}
