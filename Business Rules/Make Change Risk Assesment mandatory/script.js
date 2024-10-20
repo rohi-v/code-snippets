@@ -8,8 +8,8 @@
     if (!assessmentinstance.hasNext()) //If there are no assesments 
     {
         gs.addInfoMessage('Please perform risk assesment before requesting for approval');
-        current.state = 1; //reset state value
         current.setAbortAction(true);
         action.setRedirectURL(current);
     }
 })(current, previous);
+
